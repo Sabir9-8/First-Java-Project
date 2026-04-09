@@ -31,11 +31,14 @@ This project started as a simple guessing game and was gradually improved into a
 ## 🏗 Project Structure
 
 ```text
-Game2/
+src/
 │
-├── Start.java           # Entry point (main method)
+├── Start.Java           # Entry point (main method, also contains main class)
 ├── Game.java            # Controls game flow and logic
 ├── Player.java          # Handles player input
 ├── NumberGenerator.java # Generates random number
 ├── GameJudge.java       # Evaluates guesses and decides winner
+
+```
+All main classes are in the `src/` directory. Ensure you use the correct casing for `Start.Java` (capital 'J').
 
